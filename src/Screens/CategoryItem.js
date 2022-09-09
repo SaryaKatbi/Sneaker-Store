@@ -17,7 +17,7 @@ export default function CategoryItem({product}) {
 
   const navigation = useNavigation();
 
-  const {id, name, category, price, images, colors} = product;
+  const {name, category, price, images, colors} = product;
   const {
     primary,
     secondary,
@@ -30,7 +30,6 @@ export default function CategoryItem({product}) {
     darkPriceColor,
     darkCartColor,
     darkBgColor,
-    darkTxtColor,
   } = colors;
 
   const onDetailsPress = () => {
